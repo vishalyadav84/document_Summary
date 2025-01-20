@@ -14,13 +14,7 @@
     ],
     "env": {
       "TESSERACT_PATH": "/usr/bin/tesseract"
-    },
-    
-        "functions": {
-          "app.py": {
-            "runtime": "python3.9"
-          }
-        }
+    }
 }
       
   
