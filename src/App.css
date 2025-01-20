@@ -1,0 +1,59 @@
+/* Main container styling */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+/* Button styling */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+/* Action buttons (Upload button) */
+.actions {
+  display: flex;
+  justify-content: center; /* Center align the buttons and dropdown */
+  align-items: center;
+  gap: 10px; /* Space between the elements */
+  margin-top: 20px;
+}
+
+/* Dropdown for summary type */
+select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Summary box styling */
+.summary-box {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: #f9f9f9;
+  max-height: 400px; /* Set the max height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  word-wrap: break-word; /* Break long words to prevent overflow */
+}
+
+/* Styling for summary title */
+.summary-box h2 {
+  margin-bottom: 10px;
+}
+
+/* Styling for the paragraph inside summary box */
+.summary-box p {
+  margin: 0;
+}
