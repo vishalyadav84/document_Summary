@@ -47,7 +47,7 @@ function App() {
     formData.append("document", file); 
 
     try {
-      const response = await axios.post("http://localhost:5000/upload", formData, {
+      const response = await axios.post("https://document-summary.vercel.app/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
