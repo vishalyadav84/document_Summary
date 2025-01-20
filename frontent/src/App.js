@@ -47,7 +47,7 @@ function App() {
     formData.append("document", file); 
 
     try {
-      const response = await axios.post("https://document-summary.vercel.app/upload", formData, {
+      const response = await axios.post("https://document-summary-git-main-vishals-projects-0a4d0850.vercel.app/upload", formData, {
         headers: { "Content-Type": "multipart/form-data" },
       });
 
