@@ -19,7 +19,7 @@ const FileUpload = ({ onSummaryGenerated }) => {
     formData.append('document', file);
 
     try {
-      const response = await axios.post('https://document-summary-git-main-vishals-projects-0a4d0850.vercel.app/upload', formData, {
+      const response = await axios.post('https://document-summary-e9xr.onrender.com/upload', formData, {
         headers: { 
           'Content-Type': 'multipart/form-data',
         },
